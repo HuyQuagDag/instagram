@@ -1,0 +1,44 @@
+@media (min-width: 1300px) {
+    .gird-245 {
+        width: 245px;
+    }
+    
+    .gird-220 {
+        width: 220px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1299px) {
+    .logo {
+        display: none;
+    }
+
+    .logo-s {
+        display: block;
+    }
+
+    .app-left__describe {
+        display: none;
+    }
+    .app-left__mid-link {justify-content: center;
+    }
+}
+
+@media  (max-width: 1024px) {
+    .logo {
+        display: none;
+    }
+
+    .logo-s {
+        display: block;
+    }
+
+    .app-left__describe {
+        display: none;
+    }
+    .app-left__mid-link {justify-content: center;
+    }
+    .sidebar {
+        display: none;
+    }
+}

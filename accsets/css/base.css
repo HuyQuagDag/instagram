@@ -1,0 +1,68 @@
+:root {
+    --primary-text: rgb(38, 38, 38);
+    --black-text: #000;
+    --blurred-primary-text: #8e8e8e;
+    --blurred-secondary-text: #c7c7c7;
+    --btn-color:#0095f6;
+    --sidebar-width: 319px;
+    --primary-background: #fff;
+    --primary-border: rgb(219, 219, 219);
+    --font-family-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: var(--font-family-system);
+    box-sizing: border-box;
+}
+
+ 
+/* MARGIN */
+.mag-bot-10 {
+    margin-bottom: 10px;
+}
+
+.mag-x-5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.mag-y-15 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* BTN */
+.btn {
+    background-color: transparent;
+    border: none;
+}
+
+/* Logo xác minh */
+.icon-ins {
+    margin-left: 5px;
+}
+
+.verification {
+    background-repeat: no-repeat;
+    background-position: 0 -369px;
+    height: 18px;
+    width: 18px;
+    display: block;
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/y5/r/TJztmXpWTmS.png);
+}
+
+/* HASHTAG */
+.hashtag-link {
+    color: #00376b;
+    font-size: 14px;
+    text-decoration: none;
+}
